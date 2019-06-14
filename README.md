@@ -41,13 +41,13 @@ Functions and method both accept parameters to perform actions. A method, howeve
 Closure refers to what data you have access to. When you create a new function, that function has a scope. Any variables defined in that function are part of that function's closure. Functions can look outward to reference variables in the outer scope, but cannot reference variables in narrower functions without calling that inner function.
 
 4. Describe the four rules of the 'this' keyword.<br/>
- The four rules are:<br/>
+ The four rules are:<br/><br/>
 a. Global binding - In the global scope, 'this' refers to the console object<br/>
 b. Implicit binding - When a function is called by a preceding dot, 'this' refers to the object before the dot<br/>
 c. New binding - When a constructor function is used, 'this' refers to the object that is created and returned by that constructor function<br/>
 d. Explicit binding - When `.call` or `.apply` is used, 'this' is explicitly defined<br/>
 
-5. Why do we need super() in an extended class?<br/>
+5. Why do we need super() in an extended class?<br/><br/>
 super() enables us to give all the attributes of the parent to the extended class
 
 ## Project Set up
